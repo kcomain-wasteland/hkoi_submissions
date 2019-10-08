@@ -12,3 +12,4 @@ The expression does not contain any brackets.
 a = input()
 bstr = [c for c in a]
 print(bstr)
+
