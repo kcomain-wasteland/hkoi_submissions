@@ -8,3 +8,7 @@ The operators are either +(plus), -(minus) or *(times).
 The expression does not contain any brackets.
 '''
 # So DIFFICULT AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+a = input()
+bstr = [c for c in a]
+print(bstr)
