@@ -10,6 +10,5 @@ The expression does not contain any brackets.
 # So DIFFICULT AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
 a = input()
-bstr = [c for c in a]
-print(bstr)
-
+bst = [c for c in a]
+print(bst)
