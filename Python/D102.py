@@ -6,7 +6,7 @@ the half fare would be $4.7.
 Write a program to display the half fare.
 '''
 
-from math import *
+# from math import *
 import re
 a = input()
 b = re.sub('$','',a)
