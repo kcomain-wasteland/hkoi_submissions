@@ -9,7 +9,7 @@ Write a program to display the half fare.
 from math import *
 import re
 a = input()
-b = re.sub('\$','',a)
+b = re.sub('$','',a)
 # print(b) # Debug only
 ba = float(b)
 c = ba / 2
