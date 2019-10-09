@@ -1,1 +1,1 @@
-"# HKOI Submission Drafts" 
+# HKOI Submission Drafts
