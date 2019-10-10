@@ -6,15 +6,17 @@ the half fare would be $4.7.
 Write a program to display the half fare.
 '''
 
-# from math import *
+import math
 import re
 a = input()
-b = re.sub('$','',a)
+b = re.sub('\$','',a)
 # print(b) # Debug only
 ba = float(b)
 c = ba / 2
-
-
+def round_up(n, decimals=0):
+    multiplier = 10 ** decimals
+    return math.ceil(n * multiplier) / multiplier
+d = round_up(c, 1)
 
 # print(c) #debug
-print('${}'.format(c))
+print('${}'.format(d))
