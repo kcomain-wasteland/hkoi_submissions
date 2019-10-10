@@ -1,4 +1,4 @@
-'''
+'''Date comparison(D105)
 Write a program to compare two dates: y1-m1-d1 y2-m2-d2
 '''
 a = input()

@@ -1,4 +1,5 @@
-'''Recently, the Napster company has been forced to block all copyrighted MP3 files from being downloaded.
+'''Napster Cheating(01005)
+Recently, the Napster company has been forced to block all copyrighted MP3 files from being downloaded.
 This can protect the copyright of the songs, but all Napster users are not happy about this.
 Therefore, one of the users has made a program to rename MP3 files,
 so that Napster cannot identify the songs that should be blocked and therefore they can be downloaded freely.

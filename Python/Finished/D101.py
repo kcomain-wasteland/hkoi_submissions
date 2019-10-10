@@ -1,4 +1,4 @@
-'''
+'''Phone number(D101)
 In this exercise, you will learn how to perform basic input and output. 
 Also, you will be able to try the HKOI Online Judge system.
 Write a program to read a 8-digit Hong Kong phone number and determine whether 
