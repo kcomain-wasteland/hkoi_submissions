@@ -38,7 +38,7 @@ regex = r'[\+\-\*\/]'
 b = re.sub(regex,'',a)
 c = b.split(' ')    
 result = 0
-print(c)
+# print(c)
 if first == '+':
     if sec == '+':
         result = int(c[0]) + int(c[2]) + int(c[4])
