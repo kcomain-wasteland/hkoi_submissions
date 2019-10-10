@@ -11,4 +11,8 @@ The expression does not contain any brackets.
 
 a = input()
 bst = [c for c in a]
+first = ''
+sec = ''
+for i in bst:
+    print(i+'\n')
 print(bst)
