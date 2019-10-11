@@ -5,10 +5,10 @@ A is the sorting order required (0 = Ascending, 1 = Descending)
 '''
 temp = input()
 n = input()
-count = 0
 
 temp = temp.split(' ')
 n = n.split(' ')
+n = [int(x) for x in n]
 
 order = temp[1]
 
@@ -34,7 +34,7 @@ def bubble(ar,order):
                     ar[i], ar[i+1] = ar[i+1], ar[i]
                     count += 1
     for a in ar:
-        yeet += a 
+        yeet += str(a)
         yeet += ' '
     return(str(count)+'\n'+yeet)
 # print('n: {}'.format(n))
