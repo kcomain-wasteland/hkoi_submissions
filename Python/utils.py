@@ -1,5 +1,6 @@
 import os
 import sys
+import re
 
 def restart():
     """Restarts the current program.
@@ -7,3 +8,6 @@ def restart():
     saving data) must be done before calling this function."""
     python = sys.executable
     os.execl(python, python, * sys.argv)
+
+def space(reg,b):
+    print(re.sub(reg,' ',b))
