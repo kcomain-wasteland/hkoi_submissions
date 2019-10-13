@@ -21,9 +21,11 @@ count = 0
 for a in files:
     print('Adding File ({}) [{} of {}]'.format(a,count+1,len(files)))
     count += 1
+    sh += 'echo "Testing File({}) [{} of {}]"\n'.format(a,count+1,len(files))
     sh += 'python -S -m py_compile {}\n'.format(a)
     time.sleep(random.random()/5)
 a = open('tests.sh','w')
+sh += 'echo "Tests done. Thank you."'
 a.write(sh)
 print('Process finished. Thanks for using.')
 a.close()
