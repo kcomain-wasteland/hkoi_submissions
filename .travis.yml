@@ -8,6 +8,4 @@ python:
 install:
 #  - pip install runpy
 # command to run tests
-script:
-  - chmod +x ./tests.sh
-  - ./tests.sh
+script: ./tests.sh
