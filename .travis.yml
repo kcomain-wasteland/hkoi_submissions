@@ -5,8 +5,8 @@ python:
   # PyPy versions
   - "pypy3"  # currently Python 3.6.1,  PyPy 7.1.1-beta0
 # command to install dependencies
-install:
-  - pip install py_compile
+#install:
+#  - pip install py_compile
 # command to run tests
 script:
   - chmod +x ./tests.sh
