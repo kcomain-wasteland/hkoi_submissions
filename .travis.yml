@@ -6,7 +6,7 @@ python:
   - "pypy3"  # currently Python 3.6.1,  PyPy 7.1.1-beta0
 # command to install dependencies
 install:
-  - pip install runpy
+#  - pip install runpy
 # command to run tests
 script:
   - chmod +x ./tests.sh

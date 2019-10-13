@@ -1,14 +1,14 @@
 #!/bin/bash
-python -S -m py_compile D104.py
-python -S -m py_compile utils.py
-python -S -m py_compile 01005.py
-python -S -m py_compile D100.py
-python -S -m py_compile D101.py
-python -S -m py_compile D102.py
-python -S -m py_compile D103.py
-python -S -m py_compile D105.py
-python -S -m py_compile D106.py
-python -S -m py_compile D108.py
-python -S -m py_compile D109.py
-python -S -m py_compile D301.py
-python -S -m py_compile D802.py
+python -S -m py_compile ./Python/D104.py
+python -S -m py_compile ./Python/utils.py
+python -S -m py_compile ./Python/Finished/01005.py
+python -S -m py_compile ./Python/Finished/D100.py
+python -S -m py_compile ./Python/Finished/D101.py
+python -S -m py_compile ./Python/Finished/D102.py
+python -S -m py_compile ./Python/Finished/D103.py
+python -S -m py_compile ./Python/Finished/D105.py
+python -S -m py_compile ./Python/Finished/D106.py
+python -S -m py_compile ./Python/Finished/D108.py
+python -S -m py_compile ./Python/Finished/D109.py
+python -S -m py_compile ./Python/Finished/D301.py
+python -S -m py_compile ./Python/Finished/D802.py

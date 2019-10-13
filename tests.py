@@ -9,12 +9,12 @@ sh = '#!/bin/bash\n'
 for i in os.listdir('Python'):
     if i[-3:] == '.py':
         print(i)
-        files.append(i)
+        files.append('./Python/'+i)
 
 for i in os.listdir('Python\\Finished'):
     if i[-3:] == '.py':
         print(i)
-        files.append(i)
+        files.append('./Python/Finished/'+i)
 
 print('Please Wait... Adding Files.')
 count = 0
