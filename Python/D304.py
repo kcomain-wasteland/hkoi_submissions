@@ -12,3 +12,5 @@ import re
 h = input()
 
 usolt = []
+solved = []
+
