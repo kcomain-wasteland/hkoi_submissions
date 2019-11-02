@@ -10,13 +10,5 @@ The player will make guesses repeatedly until the all letters in H are revealed.
 import re
 
 h = input()
-solved = False
 
-progress = ""
-sepword = [a for a in h]
-for i in sepword:
-    progress += '_'
-    print(progress)
-while not solved:
-    print()
-
+usolt = []
