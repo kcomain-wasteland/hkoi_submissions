@@ -26,15 +26,10 @@ for i in solvdict:
 		unsolved.append(i)
 
 while status == False:
-	current = word
 	for i in unsolved:
-		current = re.sub(i,'_',current)
+		current = re.sub(i,'_',word)
 	print(current)
 	temp = input()
 	for i in unsolved:
 		if i == temp:
 			unsolved.remove(temp)
-	if len(unsolved) == 0:
-		status = True
-print(word)
-
