@@ -1,1 +1,3 @@
 template.html
+.ipynb_checkpoints/
+*.ipynb
