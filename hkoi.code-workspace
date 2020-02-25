@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"database": "d4mdt0gnoann0g",
+				"dialect": "PostgreSQL",
+				"isActive": false,
+				"isConnected": false,
+				"name": "DragDB",
+				"password": "3b9b456e6ae50ee1ba459ab322e0e7e13d83983a7a7b90c252dafcaa7f1d0498",
+				"port": 5432,
+				"server": "ec2-54-243-198-191.compute-1.amazonaws.com",
+				"username": "pmocsyijyxhldc"
+			},
+			{
+				"askForPassword": false,
+				"database": "cogbot_schema",
+				"dialect": "MySQL",
+				"name": "LocalDB",
+				"port": 7000,
+				"server": "localhost",
+				"username": "localuser"
+			}
+		]
+	}
+}
