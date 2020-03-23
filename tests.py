@@ -14,7 +14,7 @@ for i in os.listdir('Python'):
         print(i)
         files.append('./Python/' + i)
 
-for i in os.listdir('Python\\Finished'):
+for i in os.listdir('Python/Finished'):
     if i[-3:] == '.py':
         print(i)
         files.append('./Python/Finished/' + i)
