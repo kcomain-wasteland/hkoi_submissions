@@ -30,3 +30,40 @@
 # 		status = True
 # print(word)
 #
+
+#!/usr/bin/python3.5
+
+# Setup variables 
+chars = []
+solved = []
+
+# Get the word
+word = input()
+
+# Step 2
+for i in [i for i in word]:
+	if i not in chars:
+		chars.append(i)
+
+# print(f'Chars: {chars}')
+# print(f'Solved: {solved}')
+while len(chars) != 0:
+#    print(f'Chars: {chars}')
+#    print(f'Solved: {solved}')
+    ch = input()
+    if ch in chars:
+        solved.append(ch)
+        chars.remove(ch)
+    out = word
+    for i in chars:
+        out = out.replace(i, '_')
+#       print(f'replaced {i} with _')
+    print(out)
+
+"""
+Steps:
+1. get the word
+2. split and search for characters, add them to chars
+3. ask chars and add it to solved
+4. if the chars is in [chars], delete it.
+"""
