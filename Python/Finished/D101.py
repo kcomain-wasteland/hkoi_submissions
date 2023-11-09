@@ -6,15 +6,11 @@ it is a fixed line number (numbers that start with 2 or 3) or a mobile number
 (numbers that start with 5, 6 or 9).
 '''
 a = input()
-aw = a[:1]
+aw = int(a[0])
 
-if aw == '2':
-    print('Fixed')
-elif aw == '3':
-    print('Fixed')
-if aw == '5':
-    print('Mobile')
-elif aw == '6':
-    print('Mobile')
-elif aw == '9':
-    print('Mobile')
+if aw in [2, 3]:
+    print("Fixed")
+elif aw in [5, 6, 9]:
+    print("Mobile")
+else:
+    raise Exception("unexpected value")
